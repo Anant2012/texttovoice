@@ -7,7 +7,7 @@ const path = require("path");
 const OpenAI = require("openai");
 const { request } = require("http");
 
-const openaiApiKey = "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";
+const openaiApiKey = "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";
 
 if (!openaiApiKey) {
   throw new Error(
